@@ -4,7 +4,7 @@ const http = require('http').Server(app)
 const path = require('path')
 const bodyParser = require('body-parser')
 const exphbs = require('express-handlebars')
-const extname = 'hbs'
+const extname = 'arsan'
 
 app.set('view engine', extname)
 app.set('views', path.join(__dirname, 'app', 'resources', 'views'))
