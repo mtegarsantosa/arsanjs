@@ -2,4 +2,9 @@
   <h1>ARSAN JS</h1>
   <hr>
   <div class="message">It's Work! V.1.0</div>
+  <ul>
+    {{#each subjects}}
+      <li>{{name}}</li>
+    {{/each}}
+  </ul>
 </div>

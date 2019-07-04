@@ -1,9 +1,8 @@
-class AController {
+const AModel = require('../models/AModel')
+class Controller {
   static welcome(req,res){
-    res.render('guest/welcome', {
-      title: 'Welcome - ArsanJS'
-    })
+
   }
 }
 
-module.exports = AController
+module.exports = Controller
