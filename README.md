@@ -1,6 +1,6 @@
 <h1>INSTALATION</h1>
 <ul>
-<li>git clone https://github.com/mtegarsp/arsanjs.git</li>
+<li>git clone https://github.com/arsandev/arsanjs.git</li>
 <li>npm i</li>
 <li>npm start</li>
   <li><i>server running on host:5000</i></li>
