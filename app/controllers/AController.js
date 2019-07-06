@@ -1,8 +1,6 @@
-const AModel = require('../models/AModel')
-class Controller {
-  static welcome(req,res){
-
+// const MyModel = require('../models/MyModel')
+module.exports = {
+ welcome(req,res){
+   res.render('guest/welcome')
   }
 }
-
-module.exports = Controller
