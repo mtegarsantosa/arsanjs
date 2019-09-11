@@ -15,7 +15,7 @@ app.engine(extname, exphbs({
   layoutsDir: path.join(__dirname, 'app', 'resources','layouts')
 }))
 
-app.use('/', require('./route'))
+app.use('/', require('./app/route'))
 app.use('/assets', express.static('static'))
 
 http.listen(5000, ()=>{
